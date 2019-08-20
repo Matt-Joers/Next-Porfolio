@@ -15,12 +15,12 @@ export default ({children, title}) => (
   <div className='root'>
     <Head>
     <title>NextPortfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/nprogress/0.2.0/nprogress.min.css" />
     </Head>
     <header>
       <Link href='/'><a>HOME</a></Link>
       <Link href='/about'><a>ABOUT</a></Link>
       <Link href='/hireme'><a>HIRE ME</a></Link>
+      <Link href='/blog'><a>BLOG</a></Link>
     
     </header>
     <h1>{title}</h1>
