@@ -1,11 +1,15 @@
 {
-  "name": "Portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "next"
-  },
+    "dev": "next",
+    "build": "next build",
+    "export": "next export",
+    "deploy": "cd out && now --public",
+    "now-build": "next build && next export -o dist"
+    },
   "keywords": [],
   "author": "",
   "license": "ISC",
