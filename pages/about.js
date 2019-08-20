@@ -11,16 +11,6 @@ static async getInitialProps() {
   return { user: data, statusCode};
 }
 
-  // componentDidMount() {
-  //   fetch('https://api.github.com/users/relicdude36')
-  //   .then( res=> res.json())
-  //   .then(data => {
-  //     this.setState({
-  //       user: data
-  //     });
-  //   });
-  // }
-
   render() {
     const { user, statusCode } = this.props;
 
